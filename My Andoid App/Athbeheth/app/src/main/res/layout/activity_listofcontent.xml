@@ -1,0 +1,75 @@
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+        android:id="@+id/container"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context="com.example.ishani.athbeheth.listofcontent"
+        tools:ignore="MergeRootFrame" >
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:background="@drawable/img_2">
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true">
+
+            <Button
+                android:layout_width="265dp"
+                android:layout_height="wrap_content"
+                android:text="හිස රුදාව"
+                android:id="@+id/button1"
+                android:layout_gravity="center_horizontal" />
+            <Button
+                android:layout_width="265dp"
+                android:layout_height="wrap_content"
+                android:text="කන ආබාධ"
+                android:id="@+id/button2"
+                android:layout_gravity="center_horizontal" />
+            <Button
+                android:layout_width="265dp"
+                android:layout_height="wrap_content"
+                android:text="ඇස් රෝග"
+                android:id="@+id/button3"
+                android:layout_gravity="center_horizontal" />
+            <Button
+                android:layout_width="265dp"
+                android:layout_height="wrap_content"
+                android:text="දත්  රෝග"
+                android:id="@+id/button4"
+                android:layout_gravity="center_horizontal" />
+            <Button
+                android:layout_width="265dp"
+                android:layout_height="wrap_content"
+                android:text="උදරාබාධ"
+                android:id="@+id/button5"
+                android:layout_gravity="center_horizontal" />
+            <Button
+                android:layout_width="265dp"
+                android:layout_height="wrap_content"
+                android:text="වාතාබාධා"
+                android:id="@+id/button6"
+                android:layout_gravity="center_horizontal" />
+            <Button
+                android:layout_width="265dp"
+                android:layout_height="wrap_content"
+                android:text="බෝවන  රෝග"
+                android:id="@+id/button7"              android:layout_gravity="center_horizontal" />
+            <Button
+                android:layout_width="265dp"
+                android:layout_height="wrap_content"
+                android:text="කැඩුම් බිඳුම් කැපුම්"
+                android:id="@+id/button8"
+                android:layout_gravity="center_horizontal" />
+
+        </LinearLayout>
+
+        </RelativeLayout>
+</FrameLayout>
+
